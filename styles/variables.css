@@ -1,1 +1,23 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --inter-variable: 'Inter-Variable';
+    --PressStart2P-Regular: 'PressStart2P-Regular';
+    --card-main-font: 400;
+    --card-title-font: 700;
+    --header-width: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
+    --header-height: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
+    --logo-margin: clamp(7.5rem, 7.324rem + 0.75vw, 8rem) clamp(0.875rem, -1.469rem + 10vw, 7.531rem);
+    --header-title-font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+    --header-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
+    --card-width: clamp(23.438rem, 16.373rem + 30.14vw, 43.5rem);
+    --card-picture-height: clamp(23.438rem, 16.373rem + 30.14vw, 43.5rem);
+    --text-font-size: 14px;
+    --title-font-size: 18px;
+    --dialog-width: clamp(21.313rem, 21.048rem + 1.13vw, 22.063rem);
+    --page-background-gradient :
+                                repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                                repeating-linear-gradient(to top, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                                linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
+}
